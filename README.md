@@ -1,2 +1,2 @@
 # project
-Heuristic Algorithm for Slot minimisation and data transfer online streaming.
+Heuristic Algorithm for Slot minimisation and data transfer in online streaming.
