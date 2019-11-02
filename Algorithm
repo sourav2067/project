@@ -1,0 +1,27 @@
+Algorithm
+s= source  node  ,   d= destination node ,m=intermediate node, ans=INT_MAX;
+Findintermediate  (s,d,m)  {
+  Vector<int>source;	
+  Vector<int>destination;
+  Vector<int>intermediate;
+  Dijkstra’s(s,n,source);
+  Dijkstra’s(d,n,destination);
+  Dijkstra’s(m,n,intermediate);
+  For each I in,source,destination and intermediate:
+    ans=min(ans,source[i]+destination[i]+intermediate[i]);
+  search(ans,matrix) return column;
+}
+Algorithm to send data
+Findbestone(source,intermediate,vector<int>destination)
+{
+  Int sum1=0;
+  For loop in destination on taking source{
+    Sum1+=dijkstra(destination[i],source); }
+  For loop in destination on taking intermediate {
+    Sum2+=dijkstra(destination[i],intermediate)
+   X= minimum(sum1,sum2);
+  If(x==sum1)
+    Return source;
+  Else
+    Return intermsediate;
+}
